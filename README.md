@@ -7,9 +7,6 @@
 
 ## Computer vision with OpenCV
 
-### Join me on this exciting journey to apply advanced computer vision techniques to identify lane lines. Camera calibration,  undistortion, color threshold, perspective transformation, lane detection and image annotation. Thanks to Udacity Self-driving Car Nanodegree for providing me the basic skills set to get there!
-
-
 #### When we drive, we use our eyes to decide where to go.  The lines on the road that show us where the lanes are, will act as our constant reference for where to steer the vehicle.  Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm.
 
 #### In this project you will detect lane lines in images using Python and OpenCV.  OpenCV means "Open-Source Computer Vision", which is a package that has many useful tools for analyzing images.
