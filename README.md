@@ -1,6 +1,6 @@
 # Image Processing & Pattern Recognition Project
-* Moaaz Osama Abd El_Mohymen    ID: 1701456
-* Moatasem Mohie El_Deen        ID: 1701461
+* Moaaz Osama Abd El_Mohymen    *ID: 1701456
+* Moatasem Mohie El_Deen        *ID: 1701461
 # Finding Lane Lines on the Road - Advanced Techniques
 
 ## Computer vision with OpenCV
