@@ -105,20 +105,7 @@ python main.py
 ---
 
 
-## Discussion
 
-I found the thresholding technique very challenge to generalize for non-well maintained or under construction roads, and for tracks with very sharp curves. So I guess there are more advanced techniques out there, restraining and smoothing big detection variations. Regarding the sharp curves, I guess in this case we are limited by the field of view of just one camera, but it may still be doable if we use the appropriate transformation matrix.
-
-As described above:
-* I had no time to play with windows margins, but it would be interesting to come back later and try out some modifications. It also may be interesting to insert one more variable of control and limit the horizontal shift of the "centroid" with respect to the last window, it may avoid crazy windows combination and ultimately wrong lane detection.
-* I had no time as well to implement a lose track condition. Let's say it cannot find non-zero pixels within the windows, and it may happen for a sequence of frames, the program should go back to the sliding windows search or another method to rediscover them.
-
-The pipeline is doing great on the project video!! it is doing good on the challenge videos! But it fails badly on the brutal "harder_challenge" video. In my opinion, first, because it switches from a wide one way (several lanes) road to a much narrower (one lane) and two ways road. Second, because of the very sharp curves going out of the field of view of the camera.
-
-I did not stop yet to try and improve the pipeline, generalizing up to the harder challenge video. But I think the key is to implement a dynamic and automated way to define the transformation trapezoid and come up with the appropriate source points for the perspective transform. I would start looking into the edge or corner detection options and analyze attributes like color and surrounding pixels. 
-
-
----
 
 
 ## Acknowledgments / References
